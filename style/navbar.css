@@ -1,0 +1,116 @@
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    height: 30px;
+    flex-direction: row;
+    background-color:rgb(5, 5, 5);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+ 
+}
+
+.right-navbar {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    font-size: 14px;
+    
+    
+}
+.logo{
+    width: 60px;
+    padding-left: 20px;
+}
+.cart-logo{
+    width: 25px;
+}
+.navbar-style{
+    color: rgb(240, 240, 240);
+    font-family: playfair;
+    text-decoration: none;
+    
+
+}
+.navbar-style:hover{
+    color: rgb(187, 187, 180);
+    transition-duration: 0.1s;
+}
+
+.navbar-style-cart{
+    padding-right: 20px;
+    width: 3;
+}
+.navbar-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    height: 40px;
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+}
+.middle-section{
+    margin-left: 550px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.middle-section-style{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.search-box {
+    display: flex;
+    width: 200px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #555;
+}
+
+
+
