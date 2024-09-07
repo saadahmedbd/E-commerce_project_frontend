@@ -188,17 +188,48 @@ video{
     line-height: 25px;
     white-space: normal;
     width: 500px;
-    font-family:anton, arial;
-    font-weight: bold;
+    font-family:protest guerrilla;
+    font-weight: 800px;
     
    
 }
-.overlay-text-p{
-    position: absolute;
-    top:70px;
-    left: 5%;
-    transform: translate(-50%, -50%);
+.paragraph-text{
+    color: rgb(24, 21, 21);
+    font-family: anton;
+    margin-left: 170px;
+    font-size: 11px;
+ 
 }
+.men-shop-button{
+    height: 30px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: rgb(75, 66, 66);
+    border: none;
+    cursor: pointer;
+    border-style: solid;
+    color: white;
+    border-width: 2px;
+
+
+}
+.women-shop-button{
+    height: 30px;
+    width: 120px;
+    border-radius: 60px;
+    border-style: solid;
+    border: none;
+    cursor: pointer;
+    background-color:black;
+    color:white;
+}
+.women-shop-button:hover{
+    background-color: rgb(75, 66, 66);
+}
+.men-shop-button:hover{
+    background-color: black;
+}
+
 
 
 

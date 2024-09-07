@@ -1,0 +1,23 @@
+.product-theme{
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family:kanit;
+    font-weight: bold;
+    font-size: 15px;
+}
+.product-grid{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 14px;
+}
+.product-pic{
+    width: 100%;
+    position: relative;
+}
+.product-preview{
+    display: flex;
+    margin-left:-130px;
+    height: 500px;
+    width: 600px;
+}
