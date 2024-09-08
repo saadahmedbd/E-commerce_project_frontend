@@ -6,18 +6,51 @@
     font-size: 15px;
 }
 .product-grid{
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 14px;
-    row-gap: 14px;
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 45px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.03);
+    
+
+
 }
 .product-pic{
-    width: 100%;
-    position: relative;
+    width: 250px;
+    height: 320px;
+    object-fit: cover;
+    margin-bottom: 0px;
+    margin-right: 20px;
 }
-.product-preview{
-    display: flex;
-    margin-left:-130px;
-    height: 500px;
-    width: 600px;
+.product-name{
+    font-family:playfair display ;
+    font-weight: 500px;
+    font-size: 14px;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 0px;
 }
+.size{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    color: gray;
+}
+.febric{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    color: gray;
+}
+.price{
+    margin-top: 0px;
+    font-size: 15px;
+    color: black;
+}
+.product-link{
+    text-decoration: none;
+}
+p{
+    text-decoration: none;
+}
+
