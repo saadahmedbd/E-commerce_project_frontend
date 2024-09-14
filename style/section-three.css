@@ -281,11 +281,13 @@
 
 }
 .website-product-position{
-    margin-top: 120px;
+    margin-top: 250px;
     margin-left: 25px;
+
 }
 .website-product-info{
     margin-left: 40px;
+    margin-bottom: 50px;
 }
 .website-product{
     text-decoration: none;
@@ -295,11 +297,60 @@
     font-weight: 500px;
 }
 .finishing-line{
-    margin-top: 100px;
+    
     width: 100%;
     height: 1px;
     background-color: black;
     margin: 20px 0;
     
 
+}
+.advice-text{
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+/*  finishing navbar*/
+.finishing-navbar-grid{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.finishing-navbar{
+    margin-left: 40px;
+}
+.finishing-navbar-info{
+    margin-left: 40px;
+}
+.finishing-navbar-detils{
+    color: rgb(73, 67, 67);
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.finishing-navbar-paragraph{
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.finishing-navbar-detils:hover{
+    color: black;
+}
+.finishing-heading{
+    font-size: 15px;
+}
+.finishing-navbar-link-grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 10px; 
+}
+.link-image{
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.finishing-navbar-link-preview{
+    margin-left: 10px;
 }
